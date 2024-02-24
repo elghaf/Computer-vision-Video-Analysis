@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# extract data from websites
 # Define the URL of the webpage you want to scrape
 url = "https://www.affiliateprogramdb.com/reviews/automattic-wordpress-com-affiliate-program/"  # Replace with the actual URL
 
