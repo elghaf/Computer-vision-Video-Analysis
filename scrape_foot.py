@@ -8,6 +8,8 @@ url = "https://www.affiliateprogramdb.com/reviews/automattic-wordpress-com-affil
 # Send an HTTP GET request to the webpage
 response = requests.get(url)
 
+
+
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.content, "html.parser")
 
