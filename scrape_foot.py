@@ -27,6 +27,7 @@ related_niches = [item.text for item in soup.select("CSS_SELECTOR_FOR_RELATED_NI
 program_type = soup.select_one("CSS_SELECTOR_FOR_PROGRAM_TYPE").text
 company_type = soup.select_one("CSS_SELECTOR_FOR_COMPANY_TYPE").text
 
+
 # Print or process the scraped data as needed
 print("Website URL:", website_url)
 print("Affiliate Program URL:", affiliate_program_url)
